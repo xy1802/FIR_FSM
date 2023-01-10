@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jan 10 16:58:55 2023
+# Process ID: 29056
+# Current directory: D:/vivado_files/lizhibin/FIR_Simple/FIR_Simple.runs/fir250_45_synth_1
+# Command line: vivado.exe -log fir250_45.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir250_45.tcl
+# Log file: D:/vivado_files/lizhibin/FIR_Simple/FIR_Simple.runs/fir250_45_synth_1/fir250_45.vds
+# Journal file: D:/vivado_files/lizhibin/FIR_Simple/FIR_Simple.runs/fir250_45_synth_1\vivado.jou
+# Running On: DESKTOP-1CFBCAB, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 6, Host memory: 17001 MB
+#-----------------------------------------------------------
+source fir250_45.tcl -notrace
