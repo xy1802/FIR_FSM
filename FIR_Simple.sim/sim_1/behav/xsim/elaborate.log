@@ -1,0 +1,67 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado2022/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L fir_compiler_v7_2_18 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_FIR_fsm_behav xil_defaultlib.tb_FIR_fsm xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9380] size mismatch in mixed-language port association of VHDL port 'm_axis_data_tdata' [D:/vivado_files/lizhibin/FIR_Simple/FIR_Simple.srcs/sources_1/new/FIR_fsm.v:172]
+WARNING: [VRFC 10-5021] port 'm_axis_data_tlast' is not connected on this instance [D:/vivado_files/lizhibin/FIR_Simple/FIR_Simple.srcs/sources_1/new/FIR_fsm.v:172]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package fir_compiler_v7_2_18.fir_compiler_v7_2_18_viv_comp
+Compiling package ieee.std_logic_textio
+Compiling package fir_compiler_v7_2_18.globals_pkg
+Compiling package fir_compiler_v7_2_18.components
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=28,has_ifx=t...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_slave [\glb_ifx_slave(width=28,has_ifx=...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=1,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=3,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=2,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.sp_mem [\sp_mem(c_xdevicefamily="zynq",c...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.filt_mem [\filt_mem(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.sp_mem [\sp_mem(c_xdevicefamily="zynq",c...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.filt_mem [\filt_mem(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.cntrl_delay [\cntrl_delay(c_delay_len=0,c_mem...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=16,c_xdevicef...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.buff [\buff(c_xdevicefamily="zynq",c_d...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(mask="11111111111111111...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.calc [\calc(c_xdevicefamily="zynq",c_p...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.addsub_mult_accum [\addsub_mult_accum(c_xdevicefami...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=2,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=0,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=3,c_xdevicefa...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.delay [\delay(c_delay_len=6,c_xdevicefa...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_srl_fifo [\glb_srl_fifo(width=41,has_uvpro...]
+Compiling architecture xilinx of entity axi_utils_v2_0_6.glb_ifx_master [\glb_ifx_master(width=41)\]
+Compiling architecture synth of entity fir_compiler_v7_2_18.single_rate [\single_rate(c_xdevicefamily="zy...]
+Compiling architecture synth of entity fir_compiler_v7_2_18.fir_compiler_v7_2_18_viv [\fir_compiler_v7_2_18_viv(c_xdev...]
+Compiling architecture xilinx of entity fir_compiler_v7_2_18.fir_compiler_v7_2_18 [\fir_compiler_v7_2_18(c_xdevicef...]
+Compiling architecture fir250_45_arch of entity xil_defaultlib.fir250_45 [fir250_45_default]
+Compiling module xil_defaultlib.FIR_fsm
+Compiling module xil_defaultlib.tb_FIR_fsm
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_FIR_fsm_behav
